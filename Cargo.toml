@@ -1,0 +1,16 @@
+[package]
+name = "p2p-node"
+version = "0.0.0"
+edition = "2021"
+description = "A libp2p node."
+repository = "https://github.com/hzqd/p2p-node"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libp2p = "0.48"
+
+[dependencies.tokio]
+version = "1.35"
+features = ["full"]
